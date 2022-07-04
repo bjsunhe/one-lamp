@@ -1,0 +1,19 @@
+{
+  "name": "one-lamp",
+  "version": "1.0.0",
+  "description": "A single lamp may light hundreds of thousands of lamps without itself being diminished.  Vimalakirti Sutra\r 譬如一灯燃百千灯,冥者皆明,明终不尽。 维摩诘所说经",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjsunhe/one-lamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjsunhe/one-lamp/issues"
+  },
+  "homepage": "https://github.com/bjsunhe/one-lamp#readme"
+}

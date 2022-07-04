@@ -181,6 +181,10 @@ input{
     <!-- <input type="file" id="opl" /> -->
 
 
+
+
+    
+
   <div id="file-input-container-material">
     <div class="upload-wrapper">
       <img src="upload.png" alt="">
@@ -273,9 +277,10 @@ input{
   
               if(sheet1[`F${i}`]&&sheet1[`F${i}`].v) {
                   if(sheet1[`G${i}`]&&sheet1[`G${i}`].v){
-  
+                      console.log(i)
+                      console.log(sheet1[`G${i}`].v)
                       partId.push({
-                          partList:sheet1[`G${i}`].v.split(','),
+                          partList:(sheet1[`G${i}`].v).toString().split(','),
                           description:sheet1[`F${i}`].v,
                           id:sheet1[`A${i}`]?sheet1[`A${i}`].v:'000',
                           projectId:'M.6001134'
